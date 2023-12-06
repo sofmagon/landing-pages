@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* === GLOBALES === */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contenedor {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* === HEADER === */
+.nombre-sitio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.nombre-sitio span {
+    color: #037BC0;
+}
+
+.contenedor-navegacion {
+    border-top: solid #E1E1E1 1px;
+}
+
+.nav-principal {
+    padding: 20px 0;
+}
+
+.hero {
+    height: 550px;
+    background-image: url(../images/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
