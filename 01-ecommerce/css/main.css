@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 *, *:before, *:after {
@@ -7,21 +8,37 @@ html {
 }
 
 /* === GLOBALES === */
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
 a {
     text-decoration: none;
     color: #000;
 }
 
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* === UTILIDADES === */
 .contenedor {
-    max-width: 1200px;
+    max-width: 120rem;
     width: 90%;
     margin: 0 auto;
 }
 
 /* === HEADER === */
 .nombre-sitio {
-    margin: 50px 0;
+    margin: 5rem 0;
     text-align: center;
+    font-size: 4rem;
 }
 
 .nombre-sitio span {
@@ -29,19 +46,43 @@ a {
 }
 
 .contenedor-navegacion {
-    border-top: solid #E1E1E1 1px;
+    border-top: 1px solid #E1E1E1;
 }
 
 .nav-principal {
-    padding: 20px 0;
+    padding: 2rem 0;
     display: flex;
     justify-content: space-between;
 }
 
 .hero {
-    height: 550px;
+    height: 55rem;
     background-image: url(../images/principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+}
+
+/* === CATEGORÍAS === */
+.categorias h2 {
+    text-align: center;
+}
+
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.categoria a {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.categoria a:hover {
+    background-color: #037BC0;
+    color: #FFF;
+    border-radius: 0 0 1.5rem 0;
 }
