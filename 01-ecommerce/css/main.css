@@ -20,8 +20,7 @@ a {
 
 /* === HEADER === */
 .nombre-sitio {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 0;
     text-align: center;
 }
 
@@ -35,6 +34,8 @@ a {
 
 .nav-principal {
     padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .hero {
