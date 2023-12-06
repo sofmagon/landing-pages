@@ -11,6 +11,7 @@ html {
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
+    line-height: 2;
 }
 
 a {
@@ -20,6 +21,19 @@ a {
 
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
+    margin: 0 0 5rem 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
 }
 
 img {
@@ -30,15 +44,13 @@ img {
 /* === UTILIDADES === */
 .contenedor {
     max-width: 120rem;
-    width: 90%;
     margin: 0 auto;
 }
 
 /* === HEADER === */
 .nombre-sitio {
-    margin: 5rem 0;
+    margin-top: 5rem;
     text-align: center;
-    font-size: 4rem;
 }
 
 .nombre-sitio span {
@@ -60,10 +72,14 @@ img {
     background-image: url(../images/principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
 }
 
 /* === CATEGORÍAS === */
+.categorias {
+    padding-top: 5rem;
+}
+
 .categorias h2 {
     text-align: center;
 }
