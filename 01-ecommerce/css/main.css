@@ -59,10 +59,15 @@ img {
     font-weight: 900;
     padding: 1rem;
     transition: background-color 300ms ease-out;
+    text-align: center;
 }
 
 .btn:hover {
     background-color: #769C02;
+}
+
+.max-width-30 {
+    max-width: 30rem;
 }
 
 /**----------------
@@ -263,4 +268,38 @@ img {
     flex-direction: column;
     justify-content: center;
     text-align: justify;
+}
+
+/**----------------
+=== BLOG.HTML ===
+/**----------------*/
+
+.contenedor-blog {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+}
+
+.entrada {
+    border-bottom: 2px solid #E1E1E1;
+    padding-bottom: 4rem;
+    margin-bottom: 2rem;
+}
+
+.entrada:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.entrada-meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entrada-meta p {
+    font-weight: 700;
+}
+
+.entrada-meta span {
+    color: #037BC0;
 }
