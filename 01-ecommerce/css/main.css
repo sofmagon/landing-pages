@@ -249,3 +249,18 @@ img {
 === NOSOTROS.HTML ===
 /**----------------*/
 
+.contenido-nosotros {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* auto-fit: Hacer que el contenido se acomode automáticamente dado un parámetro.
+    Ejemplo: Si el contenido mide 25rem o menos, asignará 1fr completo a cada elemento.- responsive*/
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 4rem;
+}
+
+.informacion-nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
