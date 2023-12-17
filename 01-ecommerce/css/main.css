@@ -65,6 +65,10 @@ img {
     background-color: #769C02;
 }
 
+/**----------------
+=== INDEX.HTML ===
+/**----------------*/
+
 /* === HEADER === */
 .nombre-sitio {
     margin-top: 5rem;
@@ -240,3 +244,8 @@ img {
     text-align: center;
     margin-top: 5rem;
 }
+
+/**----------------
+=== NOSOTROS.HTML ===
+/**----------------*/
+
