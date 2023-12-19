@@ -43,7 +43,7 @@
 
     <main class="contenido-principal contenedor">
         <h2 class="text-center">Contacto</h2>
-        <form>
+        <form class="formulario">
             <fieldset>
                 <legend>Tus Datos</legend>
                 <div class="campo">
@@ -73,11 +73,11 @@
                 <div class="campo">
                     <label for="pais">País:</label>
                     <select id="pais">
-                        <option value="" disabled>-- Selecione --</option>
+                        <option value="">-- Selecione --</option>
                         <option value="MX">México</option>
                         <option value="CO">Colombia</option>
                         <option value="AR">Argentina</option>
-                        <option value="VZ">Venezuela</option>
+                        <option value="VZ" disabled>Venezuela</option>
                         <option value="ES">España</option>
                         <option value="CL">Chile</option>
                     </select>
@@ -103,7 +103,7 @@
                     </datalist>
                 </div>
             </fieldset>
-            <input type="submit" value="Enviar formulario">
+            <input class="btn" type="submit" value="Enviar formulario">
         </form>
     </main>
 
