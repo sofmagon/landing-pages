@@ -303,3 +303,16 @@ img {
 .entrada-meta span {
     color: #037BC0;
 }
+
+.entrada-blog {
+    text-align: justify;
+}
+
+/**----------------
+=== ENTRADA.HTML ===
+/**----------------*/
+
+.contenido-entrada-blog {
+    width: 60rem;
+    margin: 0 auto;
+}
