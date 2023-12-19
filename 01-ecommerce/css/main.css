@@ -335,3 +335,47 @@ img {
     width: 40rem;
     object-fit: cover;
 }
+
+/**----------------
+=== CONTACTO.HTML ===
+/**----------------*/
+
+.formulario {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.formulario fieldset {
+    border: 1px solid #000;
+    margin-bottom: 4rem;
+}
+
+.formulario legend {
+    background-color: #037BC0;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.campo label {
+    /* Definiendo una medida como hijo de un contenedor flexible */
+    flex-basis: 10rem;
+}
+
+/* Selector de atributo: todos, menos los radio */
+.campo input:not([type=radio]),
+.campo textarea,
+.campo select {
+    /* Tomando todo el espacio disponible */
+    flex: 1;
+    border: 1px solid #E1E1E1;
+}
