@@ -16,7 +16,7 @@ Consuelo Yáñez Quiñones (Endless Love)
 
 /* SITE */
 Creation: 2023/12/04
-Last update: 2023/12/18
+Last update: 2023/12/20
 Doctype: HTML5
 Language: Spanish | Español
 Technologies: HTML, CSS
