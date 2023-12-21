@@ -14,6 +14,7 @@
 
 + Semantic HTML5 markup
 + CSS custom properties
++ Flexbox & CSS Grid
 + RWD: Mobile-first workflow
 
 
@@ -24,11 +25,11 @@
 
 ## 🌎 Live demo
 
-[Click here](https://01-pseint-js.netlify.app/) 👈🏻
+[Click here](https://01-ecommerce.netlify.app//) 👈🏻
 
 
 
 ## 🌈 My Links
 
-> Made with ❤️ 🍕 🌮 by [SOFMAGON](https://beacons.ai/sofmagon)
+> Made with ❤️ 🍕 🌮 by [SOFMAGON](https://sofmagon.com)
 
