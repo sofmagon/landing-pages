@@ -12,10 +12,10 @@
 
 ## 🍕 Projects
 
-| # Number | Project name                     |
-| -------- | -------------------------------- |
-| 01       | [Tienda Muebles](./01-ecommerce) |
-|          |                                  |
+| # Number | Project name                        |
+| -------- | ----------------------------------- |
+| 01       | [Tienda Muebles](./01-ecommerce)    |
+| 02       | [Audífonos Tech PRO](./02-tech-pro) |
 
 
 
