@@ -1,0 +1,67 @@
+/*! === CUSTOM PROPERTIES === */
+:root {
+    --mainFont: 'Roboto', sans-serif;
+    --secondFont: 'Lato', sans-serif;
+    --mainColor: #1073EA;
+    --secondColor: #00DA55;
+    --gray: #3B3B3B;
+    --lightGray: #E1E1E1;
+    --white: #FFF;
+    --black: #1F1E1E;
+    --separation: 5rem;
+}
+
+/*! === GLOBAL === */
+html {
+    /* PX TO REM: 62.5% of 16px = 10px; 1rem = 10px */
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--mainFont);
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+    font-family: var(--secondFont);
+    /* margin: 2.5rem 0 */
+    margin: calc(var(--separation) / 2) 0;
+}
+
+h1 {
+    font-size: 4.4rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*! === UTILITIES === */
+.contenedor {
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*! === SITE STYLES === */
+/**----------------
+=== INDEX.HTML ===
+/**--------------*/
