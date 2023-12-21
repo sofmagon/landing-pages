@@ -409,12 +409,16 @@ img {
 .entrada {
     border-bottom: 2px solid #E1E1E1;
     margin-bottom: 2rem;
-    padding: 2rem 2rem 4rem 2rem;
+    padding-bottom: 4rem;
 }
 
 .entrada:last-of-type {
     border-bottom: none;
     margin-bottom: 0;
+}
+
+.contenido-entrada {
+    padding: 2rem;
 }
 
 @media (min-width: 768px) {
