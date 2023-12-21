@@ -1,5 +1,6 @@
 /* TEAM */
 Programmer: Sofía Martinelli
+Web: https://sofmagon.com
 Github: sofmagon
 LinkedIn: sofmagon
 Twitter: sofmagon
