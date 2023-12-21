@@ -139,10 +139,32 @@ img {
     padding: 5rem 0;
 }
 
-.listado-categorias {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+/* En mobile (<768px) .listado-categorias se posicionan de manera natural */
+@media (min-width: 768px) {
+    .listado-categorias {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
+
+.categoria {
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .categoria {
+        margin-bottom: 0;
+    }
+}
+
+.categoria:last-of-type {
+    margin-bottom: 0;
+}
+
+.categoria img {
+    /* Obligando a las imágenes a ocupar todo el ancho */
+    width: 100%;
 }
 
 .categoria a {
