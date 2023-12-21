@@ -183,10 +183,11 @@ img {
 /* === SOBRE NOSOTROS === */
 .sobre-nosotros {
     background-image: linear-gradient(to bottom, transparent 50%, #037BC0 50%, #037BC0 100%), url(../images/nosotros.jpg);
-    background-position: left center;
+    /* orden: linear-gradient, url */
+    background-position: center, top center;
     background-repeat: no-repeat;
     /* orden: linear-gradient, url */
-    background-size: 100%, 160rem;
+    background-size: 100%, 70rem;
 }
 
 @media (min-width: 768px) {
