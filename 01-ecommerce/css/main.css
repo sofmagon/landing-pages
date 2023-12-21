@@ -419,6 +419,16 @@ img {
     margin-bottom: 0;
 }
 
+.entrada h2 {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .entrada h2 {
+        text-align: left;
+    }
+}
+
 .contenido-entrada {
     padding: 2rem;
 }
