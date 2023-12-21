@@ -195,7 +195,6 @@ img {
         background-image: linear-gradient(to right, transparent 50%, #037BC0 50%, #037BC0 100%), url(../images/nosotros.jpg);
         background-position: left center;
         padding: 10rem 0;
-        background-repeat: no-repeat;
         /* orden: linear-gradient, url */
         background-size: 100%, 160rem;
     }
