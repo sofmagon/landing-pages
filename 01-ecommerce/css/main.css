@@ -78,6 +78,9 @@ img {
     padding: 1rem;
     transition: background-color 300ms ease-out;
     text-align: center;
+    /* Propiedades para el botón del formulario */
+    border: none;
+    width: 100%;
 }
 
 .btn:hover {
