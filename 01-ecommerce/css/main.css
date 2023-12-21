@@ -408,8 +408,8 @@ img {
 
 .entrada {
     border-bottom: 2px solid #E1E1E1;
-    padding-bottom: 4rem;
     margin-bottom: 2rem;
+    padding: 2rem 2rem 4rem 2rem;
 }
 
 .entrada:last-of-type {
