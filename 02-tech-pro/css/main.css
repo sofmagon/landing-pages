@@ -211,6 +211,13 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: var(--separation);
+}
+
+@media (min-width: 768px) {
+    .texto-sobre-techpro {
+        padding-bottom: 0;
+    }
 }
 
 .texto-sobre-techpro h2 {
