@@ -269,6 +269,9 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* Transición en :hover
+    valores: propiedad, tiempo, efecto */
+    transition: transform 300ms ease-in-out;
 }
 
 /* No se puede emplear last-of-type porque column-reverse cambió el orden, es decir, queremos quitarle el margen al último y el último en el HTML será el modelo X. El modelo X es el primero en el HTML.  */
@@ -280,6 +283,10 @@ img {
     .modelo {
         margin-bottom: 0;
     }
+}
+
+.modelo:hover {
+    transform: scale(1.1);
 }
 
 .modelo h3 {
