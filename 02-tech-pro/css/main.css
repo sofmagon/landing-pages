@@ -171,3 +171,36 @@ img {
     text-transform: uppercase;
     margin-top: calc(var(--separation) / 2);
 }
+
+/* === SOBRE TECHPRO === */
+.sobre-techpro {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--mainColor) 0%), url(../images/imagen-mujer.jpg);
+    /* linear-gradient, url */
+    background-repeat: repeat, no-repeat;
+    background-position: right;
+    /* linear-gradient, url */
+    background-size: 100%, 118rem;
+}
+
+.sobre-techpro-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 40rem);
+    row-gap: var(--separation);
+}
+
+.texto-sobre-techpro {
+    grid-row: 2 / 3;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-sobre-techpro h2 {
+    font-size: 4rem;
+}
+
+.texto-sobre-techpro p {
+    font-size: 2rem;
+    line-height: 2;
+}
