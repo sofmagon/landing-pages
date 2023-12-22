@@ -65,3 +65,23 @@ img {
 /**----------------
 === INDEX.HTML ===
 /**--------------*/
+
+/* === HEADER === */
+.header {
+    background-color: var(--black);
+    /* padding: 15rem 0 */
+    padding: calc(var(--separation) * 3) 0;
+    color: var(--white);
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .contenido-header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
