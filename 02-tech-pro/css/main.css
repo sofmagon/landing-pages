@@ -328,3 +328,56 @@ img {
 .modelo-z .precio {
     font-size: 6rem;
 }
+
+/* === NEWSLETTER === */
+.newsletter {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%), url(../images/newsletter.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%, 50rem;
+}
+
+@media (min-width: 768px) {
+    .newsletter {
+        background-image: linear-gradient(to right, transparent 50%, var(--white) 0%), url(../images/newsletter.jpg);
+        background-position: left center;
+        background-size: 100%, 100rem;
+        padding: calc(var(--separation) * 2) 0;
+    }
+}
+
+.contenido-newsletter {
+    display: grid;
+    grid-template-rows: repeat(2, 30rem);
+    gap: var(--separation);
+}
+
+@media (min-width: 768px) {
+    .contenido-newsletter {
+        grid-template-rows: unset;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.texto-newsletter {
+    grid-row: 2 / 3;
+}
+
+@media (min-width: 768px) {
+    .texto-newsletter {
+        grid-row: unset;
+        grid-column: 2 / 3;
+    }
+}
+
+.formulario {
+
+}
+
+.formulario input[type="text"] {
+
+}
+
+.formulario input[type="submit"] {
+
+}
