@@ -228,3 +228,64 @@ img {
     font-size: 2rem;
     line-height: 2;
 }
+
+/* === MODELOS === */
+.modelos {
+    padding: var(--separation) 0;
+}
+
+.header-modelos {
+    font-size: 6rem;
+    margin-bottom: var(--separation);
+}
+
+.listado-modelos {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.modelo  {
+    background-color: var(--lightGray);
+    color: var(--mainColor);
+    margin-bottom: 2rem;
+    padding-left: 4rem;
+    border-radius: 2rem;
+    min-height: 20rem;
+    background-repeat: no-repeat;
+    /* izq-der, arriba-abajo*/
+    background-position: 90% center;
+    background-size: 15rem;
+}
+
+/* No se puede emplear last-of-type porque column-reverse cambió el orden, es decir, queremos quitarle el margen al último y el último en el HTML será el modelo X. El modelo X es el primero en el HTML.  */
+.modelo:first-of-type {
+    margin-bottom: 0;
+}
+
+.modelo h3 {
+    font-size: 2.4rem;
+}
+
+.modelo .precio {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 0;
+}
+
+.modelo-x {
+    background-image: url(../images/modelo-x.svg);
+}
+
+.modelo-y {
+    background-image: url(../images/modelo-y.svg);
+}
+
+.modelo-z {
+    background-image: url(../images/modelo-z.svg);
+    background-color: var(--mainColor);
+    color: var(--white);
+}
+
+.modelo-z .precio {
+    font-size: 6rem;
+}
