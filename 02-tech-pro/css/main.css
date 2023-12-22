@@ -61,6 +61,11 @@ img {
     text-align: center;
 }
 
+.degradado-verde {
+    background: linear-gradient(to right, var(--mainColor) 0%, var(--secondColor) 100%);
+    background-clip: text;
+}
+
 /*! === SITE STYLES === */
 /**----------------
 === INDEX.HTML ===
