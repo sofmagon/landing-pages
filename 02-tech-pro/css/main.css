@@ -199,6 +199,7 @@ img {
         grid-template-rows: unset;
         grid-template-columns: repeat(2, 1fr);
         column-gap: var(--separation);
+        row-gap: unset;
     }
 }
 
