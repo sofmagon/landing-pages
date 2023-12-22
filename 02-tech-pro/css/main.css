@@ -276,6 +276,12 @@ img {
     margin-bottom: 0;
 }
 
+@media (min-width: 992px) {
+    .modelo {
+        margin-bottom: 0;
+    }
+}
+
 .modelo h3 {
     font-size: 2.4rem;
 }
