@@ -62,6 +62,7 @@ img {
 }
 
 .degradado-verde {
+    color: transparent;
     background: linear-gradient(to right, var(--mainColor) 0%, var(--secondColor) 100%);
     background-clip: text;
 }
