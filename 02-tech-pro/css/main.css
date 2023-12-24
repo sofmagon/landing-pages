@@ -356,6 +356,14 @@ img {
     background-size: 100%, 50rem;
 }
 
+.avif .newsletter {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%), url(../images/newsletter.avif);
+}
+
+.webp .newsletter {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%), url(../images/newsletter.webp);
+}
+
 .notavif.notwebp .newsletter {
     background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%), url(../images/newsletter.jpg);
 }
