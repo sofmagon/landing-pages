@@ -195,7 +195,7 @@ img {
 }
 
 @media (min-width: 768px) {
-    .sobre-techpro {
+    .notavif.notwebp .sobre-techpro {
         background-image: linear-gradient(to left, transparent 50%, var(--mainColor) 0%), url(../images/imagen-mujer.jpg);
     }
 }
