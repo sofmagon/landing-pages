@@ -370,10 +370,13 @@ img {
 
 @media (min-width: 768px) {
     .newsletter {
-        background-image: linear-gradient(to right, transparent 50%, var(--white) 0%), url(../images/newsletter.jpg);
         background-position: center, -25rem 0rem;
         background-size: 100%, 100rem;
         padding: calc(var(--separation) * 2) 0;
+    }
+
+    .notavif.notwebp .newsletter {
+        background-image: linear-gradient(to right, transparent 50%, var(--white) 0%), url(../images/newsletter.jpg);
     }
 }
 
