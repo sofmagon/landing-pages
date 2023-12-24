@@ -174,7 +174,6 @@ img {
 
 /* === SOBRE TECHPRO === */
 .sobre-techpro {
-    background-image: linear-gradient(to bottom, transparent 50%, var(--mainColor) 0%), url(../images/imagen-mujer.jpg);
     /* linear-gradient, url */
     background-repeat: repeat, no-repeat;
     background-position: right;
@@ -184,6 +183,11 @@ img {
 
 .avif .sobre-techpro {
     background-image: linear-gradient(to bottom, transparent 50%, var(--mainColor) 0%), url(../images/imagen-mujer.avif);
+}
+
+/* Si no soporta ninguno de los 2 formatos, servir la imagen por defecto: .jpg */
+.notavif.notwebp .sobre-techpro {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--mainColor) 0%), url(../images/imagen-mujer.jpg);
 }
 
 @media (min-width: 768px) {
