@@ -385,3 +385,19 @@ img {
     font-weight: 900;
     border: none;
 }
+
+/* === FOOTER === */
+.footer-copy {
+    text-align: center;
+    font-family: var(--secondFont);
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    color: var(--mainColor);
+    padding: 2rem 0;
+}
+
+.footer-copy a {
+    font-weight: 900;
+    color: var(--mainColor);
+    text-decoration: none;
+}
