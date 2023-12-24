@@ -375,6 +375,14 @@ img {
         padding: calc(var(--separation) * 2) 0;
     }
 
+    .avif .newsletter {
+        background-image: linear-gradient(to right, transparent 50%, var(--white) 0%), url(../images/newsletter.avif);
+    }
+
+    .webp .newsletter {
+        background-image: linear-gradient(to right, transparent 50%, var(--white) 0%), url(../images/newsletter.webp);
+    }
+
     .notavif.notwebp .newsletter {
         background-image: linear-gradient(to right, transparent 50%, var(--white) 0%), url(../images/newsletter.jpg);
     }
