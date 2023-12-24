@@ -351,10 +351,13 @@ img {
 
 /* === NEWSLETTER === */
 .newsletter {
-    background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%), url(../images/newsletter.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100%, 50rem;
+}
+
+.notavif.notwebp .newsletter {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--white) 0%), url(../images/newsletter.jpg);
 }
 
 @media (min-width: 768px) {
