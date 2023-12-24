@@ -14,7 +14,7 @@
 + CSS custom properties
 + Flexbox & CSS Grid
 + RWD: Mobile-first workflow
-
++ JavaScript to support AVIF & WEBP images depending on the browser
 
 
 ## 🎨 Preview
@@ -24,7 +24,6 @@
 ## 🌎 Live demo
 
 [Click here]() 👈🏻
-
 
 
 ## 🌈 My Links
