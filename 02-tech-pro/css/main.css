@@ -185,6 +185,10 @@ img {
     background-image: linear-gradient(to bottom, transparent 50%, var(--mainColor) 0%), url(../images/imagen-mujer.avif);
 }
 
+.webp .sobre-techpro {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--mainColor) 0%), url(../images/imagen-mujer.webp);
+}
+
 /* Si no soporta ninguno de los 2 formatos, servir la imagen por defecto: .jpg */
 .notavif.notwebp .sobre-techpro {
     background-image: linear-gradient(to bottom, transparent 50%, var(--mainColor) 0%), url(../images/imagen-mujer.jpg);
