@@ -146,6 +146,20 @@ img {
     }
 }
 
+.telefono {
+    display: flex;
+}
+
+.telefono::before {
+    content: '';
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../images/telefono.png);
+    background-repeat: no-repeat;
+    margin-right: 1rem;
+}
+
 .navegacion {
     display: flex;
     flex-direction: column;
