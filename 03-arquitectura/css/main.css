@@ -80,6 +80,7 @@ img {
 === INDEX.HTML ===
 /**--------------*/
 
+/* === HEADER === */
 .header {
     min-height: 60rem;
     background-image: url(../images/hero.jpg);
@@ -212,4 +213,18 @@ img {
 .slogan p {
     margin: 0;
     line-height: 1;
+}
+
+/* === SOBRE NOSOTROS === */
+.nosotros {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    background-image: url(../images/nosotros.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.contenido-nosotros {
+    background-color: var(--white);
+    padding: 5rem;
 }
