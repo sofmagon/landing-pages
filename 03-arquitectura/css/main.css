@@ -229,3 +229,8 @@ img {
     background-color: var(--white);
     padding: 5rem;
 }
+
+.contenido-nosotros h2,
+.contenido-nosotros p {
+    margin-bottom: 1rem;
+}
