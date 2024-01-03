@@ -164,6 +164,8 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* para que los enlaces ocupen todo el ancho disponible */
+    width: 100%;
 }
 
 @media (min-width: 768px) {
