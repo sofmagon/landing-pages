@@ -236,7 +236,7 @@ img {
     padding: 5rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .contenido-nosotros {
         grid-column: 2 / 4;
     }
