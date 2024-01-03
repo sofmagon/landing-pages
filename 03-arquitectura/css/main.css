@@ -164,7 +164,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* para que los enlaces ocupen todo el ancho disponible */
+    /* para que los hijos puedan ocupar todo el ancho disponible */
     width: 100%;
 }
 
@@ -177,6 +177,7 @@ img {
 .navegacion a {
     padding: 1rem 2rem;
     transition: background-color 300ms;
+    /* para que los enlaces ocupen todo el ancho disponible */
     width: 100%;
 }
 
