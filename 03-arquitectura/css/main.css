@@ -54,6 +54,27 @@ img {
     margin: 0 auto;
 }
 
+.btn {
+    color: var(--dark-gray);
+    background-color: var(--white);
+    border: 1px solid var(--dark-gray);
+    padding: 0.5rem 2rem;
+    transition: background-color 300ms;
+}
+
+.btn:hover {
+    background-color: var(--dark-gray);
+    color: var(--white);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
 /*! === SITE STYLES === */
 /**----------------
 === INDEX.HTML ===
