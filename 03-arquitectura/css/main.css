@@ -225,6 +225,12 @@ img {
     background-position: bottom center;
 }
 
+@media (min-width: 768px) {
+    .nosotros {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 .contenido-nosotros {
     background-color: var(--white);
     padding: 5rem;
