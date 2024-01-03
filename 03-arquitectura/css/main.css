@@ -95,6 +95,11 @@ img {
     }
 }
 
+.header a {
+    color: var(--white);
+    font-size: 2rem;
+}
+
 .contenido-header {
     display: flex;
     flex-direction: column;
@@ -126,5 +131,30 @@ img {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .contacto {
+        align-items: flex-end;
+    }
+}
+
+.navegacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .navegacion {
+        flex-direction: row;
+        gap: 2rem;
     }
 }
