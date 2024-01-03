@@ -79,3 +79,28 @@ img {
 /**----------------
 === INDEX.HTML ===
 /**--------------*/
+
+.header {
+    min-height: 60rem;
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0;
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: 2rem 0;
+    }
+}
+
+.contenido-header {
+    display: flex;
+    flex-direction: column;
+    /* Necesita crecer más para colocar bien el 2do hijo */
+    height: calc(60rem - 4rem);
+    /* Ahora sí, puede colocarse hasta abajo */
+    justify-content: space-between;
+    color: var(--white);
+}
