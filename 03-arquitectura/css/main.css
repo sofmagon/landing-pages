@@ -1,0 +1,60 @@
+/*! === CUSTOM PROPERTIES === */
+:root {
+    --mainFont: 'Raleway', sans-serif;
+    --white: #FFF;
+    --black: #111;
+    --dark-gray: #343A40;
+}
+
+/*! === GLOBAL === */
+html {
+    /* PX TO REM: 62.5% of 16px = 10px; 1rem = 10px */
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--mainFont);
+    line-height: 1.8;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+    margin: 1rem 0 4rem 0;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 5.8rem;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*! === UTILITIES === */
+.contenedor {
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/*! === SITE STYLES === */
+/**----------------
+=== INDEX.HTML ===
+/**--------------*/
