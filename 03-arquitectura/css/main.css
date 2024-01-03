@@ -104,3 +104,27 @@ img {
     justify-content: space-between;
     color: var(--white);
 }
+
+.nombre-sitio {
+    font-weight: 300;
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+@media (min-width: 768px) {
+    .nombre-sitio {
+        font-size: 5rem;
+    }
+}
+
+.nombre-sitio span {
+    font-weight: 900;
+}
+
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
