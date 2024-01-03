@@ -166,6 +166,7 @@ img {
     align-items: center;
     /* para que los hijos puedan ocupar todo el ancho disponible */
     width: 100%;
+    margin-top: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -191,4 +192,30 @@ img {
 .navegacion a:hover {
     background-color: rgb(255 255 255 / 0.5);
     color: var(--black);
+}
+
+.slogan {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .slogan {
+        text-align: right;
+    }
+}
+
+.slogan h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .slogan h1 {
+        font-size: 5rem;
+    }
+}
+
+.slogan p {
+    margin: 0;
+    line-height: 1;
 }
