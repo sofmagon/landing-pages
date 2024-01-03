@@ -175,12 +175,20 @@ img {
 }
 
 .navegacion a {
-    padding: 1rem 2rem;
+    padding: 0.5rem;
     transition: background-color 300ms;
     /* para que los enlaces ocupen todo el ancho disponible */
     width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .navegacion a {
+        padding: 1rem 2rem;
+    }
 }
 
 .navegacion a:hover {
     background-color: rgb(255 255 255 / 0.5);
+    color: var(--black);
 }
