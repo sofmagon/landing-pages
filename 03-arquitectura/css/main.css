@@ -89,12 +89,6 @@ img {
     padding: 5rem 0;
 }
 
-@media (min-width: 768px) {
-    .header {
-        padding: 2rem 0;
-    }
-}
-
 .header a {
     color: var(--white);
     font-size: 2rem;
