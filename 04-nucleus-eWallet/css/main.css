@@ -58,3 +58,29 @@ img {
 /**----------------
 === INDEX.HTML ===
 /**--------------*/
+
+/* === HEADER === */
+.header {
+    background-image: url(../images/header_bg.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 5rem 0;
+}
+
+.header__contenedor {
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .header__barra {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.header__logo {
+    width: 15rem;
+    margin: 0 auto 3rem auto;
+}
