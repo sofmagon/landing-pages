@@ -380,3 +380,15 @@ img {
     color: var(--white);
     font-size: 2rem;
 }
+
+.copyright {
+    background-color: var(--black);
+    text-align: center;
+    margin: 5rem 0 0 0;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.copyright a {
+    font-weight: 700;
+}
