@@ -124,3 +124,12 @@ img {
     }
 }
 
+.navegacion__link {
+    color: var(--mainColor);
+}
+
+@media (min-width: 768px) {
+    .navegacion__link {
+        color: var(--white);
+    }
+}
