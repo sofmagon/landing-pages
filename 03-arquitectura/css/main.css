@@ -255,6 +255,12 @@ img {
     background-position: bottom center;
 }
 
+@media (min-width: 768px) {
+    .modelo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 .contenido-modelo {
     padding: 5rem;
     background-color: var(--white);
@@ -262,6 +268,17 @@ img {
 
 .basico {
     background-image: url(../images/modelo_basico.jpg);
+}
+
+@media (min-width: 768px) {
+    .basico .contenido-modelo {
+        grid-row: 2 / 3;
+        padding: 2rem 2rem 2rem 0;
+    }
+
+    .basico {
+        background-position: top right;
+    }
 }
 
 .premiere {
