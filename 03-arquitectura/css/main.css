@@ -373,4 +373,10 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    color: var(--white);
+}
+
+.footer a {
+    color: var(--white);
+    font-size: 2rem;
 }
