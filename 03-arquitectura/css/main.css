@@ -246,3 +246,13 @@ img {
 .contenido-nosotros p {
     margin-bottom: 1rem;
 }
+
+/* === MODELOS === */
+.modelo {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.contenido-modelo {
+    padding: 5rem;
+}
