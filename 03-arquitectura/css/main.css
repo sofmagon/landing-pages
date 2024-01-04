@@ -285,6 +285,27 @@ img {
     background-image: url(../images/modelo_premier.jpg);
 }
 
+@media (min-width: 768px) {
+    .premiere .contenido-modelo {
+        grid-column: 2 / 3;
+        padding: 3rem;
+    }
+
+    .premiere {
+        background-position: top left;
+    }
+}
+
 .elite {
     background-image: url(../images/modelo_elite.jpg);
+}
+
+@media (min-width: 768px) {
+    .elite .contenido-modelo {
+        padding: 2rem 2rem 2rem 0;
+    }
+
+    .elite {
+        background-position: top right;
+    }
 }
