@@ -251,8 +251,23 @@ img {
 .modelo {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
+    background-repeat: no-repeat;
+    background-position: bottom center;
 }
 
 .contenido-modelo {
     padding: 5rem;
+    background-color: var(--white);
+}
+
+.basico {
+    background-image: url(../images/modelo_basico.jpg);
+}
+
+.premiere {
+    background-image: url(../images/modelo_premier.jpg);
+}
+
+.elite {
+    background-image: url(../images/modelo_elite.jpg);
 }
