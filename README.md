@@ -10,13 +10,13 @@
 
 ## 🍕 Projects
 
-| # Number | Project name                             | Live site                              |
-| -------- | ---------------------------------------- | -------------------------------------- |
-| 01       | [Tienda Muebles](./01-ecommerce)         | [🚀](https://01-ecommerce.netlify.app/) |
-| 02       | [Audífonos Tech PRO](./02-tech-pro)      | [🚀](https://02-techpro.netlify.app/)   |
-| 03       | [Arquitectura Bosque](./03-arquitectura) |                                        |
-|          |                                          |                                        |
-|          |                                          |                                        |
+| # Number | Project name                             | Live site                                 |
+| -------- | ---------------------------------------- | ----------------------------------------- |
+| 01       | [Tienda Muebles](./01-ecommerce)         | [🚀](https://01-ecommerce.netlify.app/)    |
+| 02       | [Audífonos Tech PRO](./02-tech-pro)      | [🚀](https://02-techpro.netlify.app/)      |
+| 03       | [Arquitectura Bosque](./03-arquitectura) | [🚀](https://03-arquitectura.netlify.app/) |
+|          |                                          |                                           |
+|          |                                          |                                           |
 
 
 
