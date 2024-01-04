@@ -1,0 +1,23 @@
+/* TEAM */
+Programmer: Sofía Martinelli
+Web: https://sofmagon.com
+Github: sofmagon
+LinkedIn: sofmagon
+Twitter: sofmagon
+Location: Mexico
+
+/* THANKS */
+María del Pilar González Rodríguez (Mother)
+Luis Roberto Romo Vidaña (Couple)
+Juan Pablo de la Torre Valdéz (Teacher)
+
+/* IN MEMORIAL*/
+Consuelo Yáñez Quiñones (Endless Love)
+12/11/1924 - 07/09/2016
+
+/* SITE */
+Creation: 2024/01/04
+Last update: 2024/01/04
+Doctype: HTML5
+Language: Spanish | Español
+Technologies: HTML, CSS
