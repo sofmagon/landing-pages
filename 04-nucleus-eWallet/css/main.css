@@ -70,19 +70,19 @@ img {
 
 @media (min-width: 768px) {
     .header {
-        background-size: 45rem;
+        background-size: 40rem;
     }
 }
 
 @media (min-width: 992px) {
     .header {
-        background-size: 60rem;
+        background-size: 70rem;
     }
 }
 
 @media (min-width: 1280px) {
     .header {
-        background-size: 80rem;
+        background-size: 100rem;
     }
 }
 
