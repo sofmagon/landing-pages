@@ -155,3 +155,10 @@ img {
         line-height: 1.2;
     }
 }
+
+@media (min-width: 768px) {
+    .header__imagen {
+        max-width: 30rem;
+        margin: 0 auto;
+    }
+}
