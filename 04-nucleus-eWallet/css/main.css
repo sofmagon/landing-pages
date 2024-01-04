@@ -103,3 +103,9 @@ img {
     width: 15rem;
     margin: 0 auto 3rem auto;
 }
+
+@media (min-width: 768px) {
+    .header__logo {
+        margin: 0;
+    }
+}
