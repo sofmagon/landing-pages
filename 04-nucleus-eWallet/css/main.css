@@ -179,3 +179,13 @@ img {
         margin: 0 auto;
     }
 }
+
+/* === MAIN - ¿QUÉ ES? === */
+.nucleus {
+    margin-top: 3rem;
+}
+
+.nucleus__heading {
+    text-align: center;
+    margin-bottom: 5rem;
+}
