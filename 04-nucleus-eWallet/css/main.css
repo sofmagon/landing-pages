@@ -367,3 +367,28 @@ img {
     font-weight: 700;
     text-align: right;
 }
+
+/* === FOOTER === */
+.footer {
+    background-color: #371D60;
+    padding: 3rem 0;
+}
+
+@media (min-width: 768px) {
+    .footer__grid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.footer__logo {
+    width: 20rem;
+    margin: 0 auto 4rem auto;
+}
+
+@media (min-width: 768px) {
+    .footer__logo {
+        margin: 0;
+    }
+}
