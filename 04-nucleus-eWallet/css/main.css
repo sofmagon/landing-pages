@@ -156,6 +156,23 @@ img {
     }
 }
 
+.header__boton {
+    background-color: var(--mainColor);
+    color: var(--white);
+    /* ocupa el 100% en mobile */
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    .header__boton {
+        padding: 1rem 3rem;
+        display: inline;
+    }
+}
+
 @media (min-width: 768px) {
     .header__imagen {
         max-width: 30rem;
