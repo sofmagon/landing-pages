@@ -294,7 +294,7 @@ img {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 5rem;
-        align-items: center;
+        align-items: flex-end;
     }
 }
 
