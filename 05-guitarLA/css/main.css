@@ -1,0 +1,39 @@
+/*! === CUSTOM PROPERTIES === */
+:root {
+    --mainColor: #e99401;
+    --black: #262626;
+    --white: #FFF;
+    --mainFont: 'Outfit', sans-serif;
+}
+
+/*! === GLOBAL === */
+html {
+    /* PX TO REM: 62.5% of 16px = 10px; 1rem = 10px */
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+    font-size: 2rem;
+    font-family: var(--mainFont);
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*! === UTILITIES === */
+.contenedor {
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/*! === SITE STYLES === */
+/**----------------
+=== INDEX.HTML ===
+/**--------------*/
