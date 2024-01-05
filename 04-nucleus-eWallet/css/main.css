@@ -298,6 +298,12 @@ img {
     }
 }
 
+@media (min-width: 992px) {
+    .comisiones__grid {
+        align-items: center;
+    }
+}
+
 .comisiones__texto {
     text-align: center;
     font-size: 2.4rem;
