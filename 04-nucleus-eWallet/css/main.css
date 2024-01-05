@@ -211,6 +211,14 @@ img {
     transform: scale(1.1);
 }
 
+@media (min-width: 768px) {
+    .listado__elemento--2col {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
 .listado__heading {
     font-size: 3rem;
     color: var(--mainColor);
