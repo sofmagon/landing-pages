@@ -135,6 +135,10 @@ img {
     }
 }
 
+.navegacion__link--blanco {
+    color: var(--white);
+}
+
 @media (min-width: 768px) {
     .header__grid {
         display: grid;
