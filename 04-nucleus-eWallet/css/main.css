@@ -204,6 +204,7 @@ img {
     padding: 2rem;
     margin-bottom: 5rem;
     transition: transform 300ms ease;
+    background-color: var(--white);
 }
 
 .listado__elemento:hover {
