@@ -49,10 +49,16 @@ img {
 
 /*! === UTILITIES === */
 /* $= 'todo lo que finalice en ...' */
+
 [class$="__contenedor"] {
     width: 90%;
     max-width: 120rem;
     margin: 0 auto;
+}
+
+[class$="__heading"] {
+    text-align: center;
+    margin-bottom: 5rem;
 }
 
 /*! === SITE STYLES === */
@@ -139,7 +145,6 @@ img {
 }
 
 .header__heading {
-    text-align: center;
     font-size: 3rem;
 }
 
@@ -180,11 +185,6 @@ img {
     margin-top: 3rem;
 }
 
-.nucleus__heading {
-    text-align: center;
-    margin-bottom: 5rem;
-}
-
 .nucleus__grid {
     display: flex;
     flex-direction: column-reverse;
@@ -219,4 +219,14 @@ img {
 .listado__texto {
     margin: 0;
     font-size: 2rem;
+}
+
+/* === SEGURIDAD === */
+.seguridad {
+    background-color: var(--mainColor);
+    padding: 10rem 0;
+}
+
+.seguridad__heading {
+    color: var(--white);
 }
