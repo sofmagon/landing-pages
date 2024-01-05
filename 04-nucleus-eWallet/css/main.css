@@ -272,3 +272,15 @@ img {
         align-items: center;
     }
 }
+
+.comisiones__texto {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .comisiones__texto {
+        text-align: left;
+    }
+}
