@@ -244,3 +244,55 @@ img {
     background-color: var(--mainColor);
     color: var(--white);
 }
+
+/* === CURSOS === */
+.cursos {
+    background-image: linear-gradient(to right, rgb(0 0 0 / 0.65), rgb(0 0 0 / 0.65)), url(../images/cursos_bg.jpg);
+    margin-top: 10rem;
+    padding: 10rem 0;
+    background-size: cover;
+    background-position: 50%;
+}
+
+@media (min-width: 768px) {
+    .cursos__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+/* Para centrar todo, incluso el enlace */
+.cursos__contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .cursos__contenido {
+        grid-column: 2 / 3;
+    }
+}
+
+.cursos__texto {
+    color: var(--white);
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.cursos__enlace {
+    color: var(--white);
+    /* Para que pueda tomar margin, padding */
+    display: inline-block;
+    margin-top: 2rem;
+    border: 2px solid var(--mainColor);
+    text-decoration: none;
+    padding: 1rem 5rem;
+    font-weight: 700;
+    transition: background-color 300ms ease-in;
+}
+
+.cursos__enlace:hover {
+    background-color: var(--mainColor);
+}
