@@ -27,14 +27,14 @@ img {
 }
 
 /*! === UTILITIES === */
-/* Todos los que finalizan...*/
-[class$="__contenedor"] {
+/* Todos los que contengan...*/
+[class*="__contenedor"] {
     width: 95%;
     max-width: 120rem;
     margin: 0 auto;
 }
 
-[class$="__heading"] {
+[class*="__heading"] {
     font-size: 4rem;
     text-align: center;
     font-weight: 900;
