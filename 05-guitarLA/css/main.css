@@ -433,3 +433,9 @@ img {
 /**----------------
 === BLOG.HTML ===
 /**----------------*/
+/* modificador de BEM */
+@media (min-width: 992px) {
+    .blog__grid--pagina {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
