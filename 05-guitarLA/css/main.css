@@ -443,3 +443,48 @@ img {
     max-width: 80rem;
     margin: 0 auto;
 }
+
+/**----------------
+=== PRODUCTO.HTML ===
+/**----------------*/
+.producto__formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.producto__label {
+    font-size: 2.2rem;
+    margin-right: 1rem;
+}
+
+.producto__cantidad {
+    border: 2px solid var(--mainColor);
+    padding: 1rem;
+    text-align: center;
+}
+
+.producto__cantidad:focus-visible {
+    outline: 2px solid var(--mainColor);
+    /* remover el default para no sumar el outline */
+    border: none;
+}
+
+.producto__agregar-carrito {
+    display: block;
+    margin-top: 3rem;
+    background-color: var(--mainColor);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+    padding: 2rem 5rem;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.8rem;
+    transition: background-color 300ms ease-in;
+}
+
+.producto__agregar-carrito:hover {
+    background-color: var(--black);
+    cursor: pointer;
+}
