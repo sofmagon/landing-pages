@@ -415,7 +415,9 @@ img {
     color: var(--mainColor);
 }
 
-/* === NOSOTROS === */
+/**----------------
+=== NOSOTROS.HTML ===
+/**----------------*/
 .nosotros__grid {
     display: grid;
     gap: 4rem;
@@ -427,3 +429,7 @@ img {
         align-items: center;
     }
 }
+
+/**----------------
+=== BLOG.HTML ===
+/**----------------*/
