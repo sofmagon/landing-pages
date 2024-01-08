@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <title>Producto | GuitarLA</title>
+    <!-- Responsividad -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Natural -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Ing. TICS. Sofía Martinelli">
+    <meta name="copyright" content="&copy; SOFMAGON 2024. Todos los derechos reservados.">
+    <meta name="description" content="Landing page para GuitarLA.">
+    <!-- Humans TXT -->
+    <link rel="author" href="humans.txt">
+    <!-- Normalize CSS -->
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images" type="image/x-icon">
+    <!-- Estilos locales de CSS -->
+    <link rel="preload" href="./css/main.css" as="style">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__contenedor">
+            <div class="header__barra">
+                <a href="./">
+                    <img src="./images/logo.svg" class="header__logo" alt="Imagen logotipo">
+                </a>
+                <nav class="navegacion">
+                    <a href="./index.html" class="navegacion__enlace">Inicio</a>
+                    <a href="./nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="./blog.html" class="navegacion__enlace">Blog</a>
+                    <a href="./tienda.html" class="navegacion__enlace">Tienda</a>
+                </nav>
+            </div> <!-- .header__barra -->
+        </div> <!-- .header__contenedor -->
+    </header>
+
+    <main class="nosotros nosotros__contenedor">
+        <div class="producto">
+            <img class="producto__imagen" src="./images/guitarra_05.jpg" alt="Imagen guitarra 5">
+            <div class="producto__contenido">
+                <h3 class="producto__nombre">Thompson</h3>
+                <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus harum voluptatem beatae? Eum exercitationem vel maxime, non placeat eos ipsa libero incidunt odit, expedita ea sit suscipit possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque, amet quis nesciunt voluptates ex labore et nostrum dicta a tempore unde temporibus, doloribus itaque culpa molestias. Adipisci!</p>
+                <p class="producto__precio">$ 299</p>
+
+                <form action="" class="producto__formulario">
+                    <label for="cantidad" class="producto__label">Cantidad:</label>
+                    <select id="cantidad" class="producto__cantidad">
+                        <option value="">-- Seleccione --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                    <input type="submit" class="producto__agregar-carrito" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenedor footer__contenido">
+            <nav class="footer__nav">
+                <a href="./index.html" class="footer__enlace">Inicio</a>
+                <a href="./nosotros.html" class="footer__enlace">Nosotros</a>
+                <a href="./blog.html" class="footer__enlace">Blog</a>
+                <a href="./tienda.html" class="footer__enlace">Tienda</a>
+            </nav>
+            <p class="footer__copyright">Hecho con <span>🍕 🌮</span> por <a href="https://sofmagon.com" target="_blank" rel="noopener noreferrer">SOFMAGON</a></p>
+        </div>
+    </footer>
+</body>
+</html>
