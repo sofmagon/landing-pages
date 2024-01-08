@@ -71,6 +71,8 @@ img {
     display: flex;
     gap: 2rem;
     margin-top: 5rem;
+    position: relative;
+    z-index: 1;
 }
 
 @media (min-width: 768px) {
