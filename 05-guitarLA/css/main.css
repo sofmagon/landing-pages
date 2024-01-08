@@ -27,9 +27,9 @@ img {
 }
 
 /*! === UTILITIES === */
-/* Todos los que tengan...*/
-[class*="contenedor"] {
-    width: 90%;
+/* Todos los que finalizan...*/
+[class$="__contenedor"] {
+    width: 95%;
     max-width: 120rem;
     margin: 0 auto;
 }
