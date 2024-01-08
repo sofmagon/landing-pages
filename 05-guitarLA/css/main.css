@@ -27,7 +27,8 @@ img {
 }
 
 /*! === UTILITIES === */
-.contenedor {
+/* Todos los que tengan...*/
+[class*="contenedor"] {
     width: 90%;
     max-width: 120rem;
     margin: 0 auto;
@@ -37,3 +38,15 @@ img {
 /**----------------
 === INDEX.HTML ===
 /**--------------*/
+
+/* === HEADER === */
+.header {
+    background-image: linear-gradient(to right, rgb(0 0 0 / 0.7), rgb(0 0 0 / 0.7)), url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.header__guitarra {
+    display: none;
+}
