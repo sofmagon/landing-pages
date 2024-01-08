@@ -314,10 +314,6 @@ img {
         grid-template-columns: repeat(4, 1fr);
     }
 }
-.entrada {
-    max-width: 80rem;
-    margin: 0 auto;
-}
 
 .entrada__contenido {
     padding: 2rem;
@@ -438,4 +434,12 @@ img {
     .blog__grid--pagina {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+/**----------------
+=== ENTRADA.HTML ===
+/**----------------*/
+.entrada {
+    max-width: 80rem;
+    margin: 0 auto;
 }
