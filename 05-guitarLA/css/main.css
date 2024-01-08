@@ -143,5 +143,7 @@ img {
         display: block;
         /* El hijo siempre lleva absolute */
         position: absolute;
+        right: 0;
+        bottom: 0;
     }
 }
