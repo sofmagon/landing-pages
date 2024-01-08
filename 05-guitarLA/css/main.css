@@ -200,3 +200,47 @@ img {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+.producto {
+    display: grid;
+    /* 40% imagen, 60% contenido */
+    grid-template-columns: 2fr 3fr;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+.producto__nombre {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.producto__descripcion {
+    font-size: 1.6rem;
+}
+
+.producto__precio {
+    font-size: 6rem;
+    color: var(--mainColor);
+    font-weight: 900;
+    margin: 0;
+}
+
+.producto__enlace {
+    margin-top: 2rem;
+    /* tomando todo el ancho disponible */
+    display: block;
+    text-decoration: none;
+    color: var(--black);
+    padding: 1rem 5rem;
+    border: 2px solid var(--mainColor);
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: background-color 300ms ease-in;
+}
+
+.producto__enlace:hover {
+    background-color: var(--mainColor);
+    color: var(--white);
+}
