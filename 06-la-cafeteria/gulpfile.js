@@ -6,8 +6,8 @@ const sass = require('gulp-sass')(require('sass'));
 function css() {
 	// 1. identificar el archivo de Sass
 	return src('./src/scss/app.scss')
-		// 2. compilarlo
-		.pipe(sass())
+		// 2. compilarlo & minificarlo
+		.pipe(sass({ outputStyle: 'compressed' }))
 		// 3. guardar el CSS
 		.pipe(dest('./build/css'))
 }
