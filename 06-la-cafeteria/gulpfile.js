@@ -10,7 +10,9 @@ function css() {
 	return src('./src/scss/app.scss')
 		// 2. compilarlo & minificarlo
 		.pipe(sass({ outputStyle: 'compressed' }))
-		// 3. guardar el CSS
+		// 3. postcss & autoprefixer
+		.pipe(postcss([autoprefixer()]))
+		// 4. guardar el CSS
 		.pipe(dest('./build/css'))
 }
 
