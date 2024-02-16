@@ -9,7 +9,7 @@ function css() {
 	// 1. identificar el archivo de Sass
 	return src('./src/scss/app.scss')
 		// 2. compilarlo & minificarlo
-		.pipe(sass({ outputStyle: 'compressed' }))
+		.pipe(sass({ outputStyle: 'expanded' }))
 		// 3. postcss & autoprefixer
 		.pipe(postcss([autoprefixer()]))
 		// 4. guardar el CSS
