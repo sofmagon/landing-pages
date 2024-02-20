@@ -8,5 +8,13 @@
 
 	@include m.tablet {
 		flex-direction: row;
+		gap: 2rem;
+	}
+
+	a {
+		color: v.$white;
+		font-size: 2rem;
+		text-transform: uppercase;
+		font-weight: 700;
 	}
 }
