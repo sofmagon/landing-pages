@@ -24,6 +24,15 @@ h2 {
 		font-size: 1.8rem;
 		display: block;
 	}
+
+	&::after {
+		content: '';
+		display: block;
+		width: 10rem;
+		height: 10rem;
+		background-color: red;
+		margin: 0 auto;
+	}
 }
 
 h3 {
