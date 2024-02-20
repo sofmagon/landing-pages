@@ -23,5 +23,9 @@
 		@include m.tablet {
 			margin-bottom: 0;
 		}
+
+		&:hover {
+			color: v.$secondColor;
+		}
 	}
 }
