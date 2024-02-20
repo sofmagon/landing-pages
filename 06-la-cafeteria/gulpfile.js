@@ -19,6 +19,7 @@ function css() {
 
 function imagenes() {
 	return src('./src/images/**/*')
+		.pipe(imagemin({ optimizationLevel: 3 }))
 		.pipe(dest('./build/images'));
 }
 
