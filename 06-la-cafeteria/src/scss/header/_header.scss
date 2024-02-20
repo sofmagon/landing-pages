@@ -5,9 +5,17 @@
 	padding: 5rem 0;
 	position: relative;
 
-	// Utilizando mixin: media querie
+	// Utilizando mixins: media queries
 	@include m.mobile {
-		padding: 2rem 0;
+		padding: 4rem;
+	}
+
+	@include m.tablet {
+		padding: 3rem;
+	}
+
+	@include m.desktop {
+		padding: 2rem;
 	}
 
 	&::before {
