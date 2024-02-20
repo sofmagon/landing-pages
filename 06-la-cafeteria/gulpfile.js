@@ -23,6 +23,7 @@ function imagenes() {
 
 function dev() {
 	watch('./src/scss/**/*.scss', css);
+	watch('./src/images/**/*', imagenes)
 }
 
 exports.css = css;
