@@ -5,6 +5,10 @@
 	padding: 5rem 0;
 	position: relative;
 
+	@include m.tablet {
+		min-height: 70rem;
+	}
+
 	&::before {
 		content: '';
 		background-color: v.$black;
