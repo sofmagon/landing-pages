@@ -32,6 +32,17 @@
 	// Anidación
 	.contenido-header {
 		position: relative;
+
+		h1 {
+			text-align: center;
+			color: v.$white;
+			text-transform: uppercase;
+			margin-top: 5rem;
+
+			@include m.tablet {
+				margin-top: 10rem;
+			}
+		}
 	}
 }
 
