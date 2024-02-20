@@ -4,7 +4,11 @@
 h1,
 h2,
 h3 {
+	font-family: v.$mainFont;
 	margin: 0 0 v.$separation 0;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.5;
 }
 
 h1 {
@@ -13,6 +17,12 @@ h1 {
 
 h2 {
 	font-size: 3.6rem;
+	color: v.$mainColor;
+
+	span {
+		color: v.$secondColor;
+		font-size: 1.8rem;
+	}
 }
 
 h3 {
