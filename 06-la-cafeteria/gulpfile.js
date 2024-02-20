@@ -53,4 +53,6 @@ function dev() {
 exports.css = css;
 exports.dev = dev;
 exports.imagenes = imagenes;
-exports.default = series(imagenes, css, dev);
+exports.imgWebp = imgWebp;
+exports.imgAvif = imgAvif;
+exports.default = series(imagenes, imgWebp, imgAvif, css, dev);
