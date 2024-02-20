@@ -16,15 +16,12 @@
 
 + Flexbox & CSS Grid
 
-+ BEM
-
 + RWD: Mobile-first workflow
 
 + Sass
 
 + Gulp.js
 
-    
 
 
 ## 🎨 Preview
