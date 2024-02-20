@@ -16,10 +16,16 @@ function css() {
 		.pipe(dest('./build/css'))
 }
 
+function imagenes() {
+	return src('./src/images/**/*')
+		.pipe(dest('./build/images'));
+}
+
 function dev() {
 	watch('./src/scss/**/*.scss', css);
 }
 
 exports.css = css;
 exports.dev = dev;
-exports.default = series(css, dev);
+exports.imagenes = imagenes;
+exports.default = series(imagenes, css, dev);
