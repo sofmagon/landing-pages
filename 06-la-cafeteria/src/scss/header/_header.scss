@@ -1,0 +1,16 @@
+@use '../base/variables' as v;
+
+.header {
+	padding: 5rem 0;
+	position: relative;
+
+	// Anidación
+	.contenido-header {
+		position: relative;
+	}
+}
+
+// Header de cada página
+.header-inicio {
+	background-image: url(../images/header_inicio.jpg);
+}
