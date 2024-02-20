@@ -5,6 +5,8 @@ const sass = require('gulp-sass')(require('sass'));
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const imagemin = require("gulp-imagemin");
+const webp = require('gulp-webp');
+const avif = require('gulp-avif');
 
 function css() {
 	// 1. identificar el archivo de Sass
