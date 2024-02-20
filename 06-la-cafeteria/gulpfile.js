@@ -30,7 +30,7 @@ function imgWebp() {
 		quality: 50
 	}
 
-	return src('./images/**/*.{png,jpg}')
+	return src('./src/images/**/*.{png,jpg}')
 		.pipe(webp(opciones))
 		.pipe(dest('./build/images'))
 }
@@ -40,7 +40,7 @@ function imgAvif() {
 		quality: 50
 	}
 
-	return src('./images/**/*.{png,jpg}')
+	return src('./src/images/**/*.{png,jpg}')
 		.pipe(avif(opciones))
 		.pipe(dest('./build/images'))
 }
