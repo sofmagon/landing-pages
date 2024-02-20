@@ -25,6 +25,26 @@ function imagenes() {
 		.pipe(dest('./build/images'));
 }
 
+function imgWebp() {
+	const opciones = {
+		quality: 50
+	}
+
+	return src('./images/**/*.{png,jpg}')
+		.pipe(webp(opciones))
+		.pipe(dest('./build/images'))
+}
+
+function imgAvif() {
+	const opciones = {
+		quality: 50
+	}
+
+	return src('./images/**/*.{png,jpg}')
+		.pipe(avif(opciones))
+		.pipe(dest('./build/images'))
+}
+
 function dev() {
 	watch('./src/scss/**/*.scss', css);
 	watch('./src/images/**/*', imagenes)
