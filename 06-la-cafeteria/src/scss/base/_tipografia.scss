@@ -39,3 +39,19 @@ h2 {
 h3 {
 	font-size: 3.2rem;
 }
+
+.heading-blanco {
+	// heredando todas las propiedades de h2
+	@extend h2;
+
+	// reescribir lo necesario
+	color: v.$white;
+
+	span {
+		color: v.$white;
+	}
+
+	&::after {
+		display: none;
+	}
+}
