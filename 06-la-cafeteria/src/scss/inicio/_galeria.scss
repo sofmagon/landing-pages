@@ -27,6 +27,14 @@
 					object-position: center;
 				}
 			}
+
+			&:nth-child(2) {
+				grid-column: 2 / 4;
+
+				img {
+					width: 62rem;
+				}
+			}
 		}
 	}
 }
