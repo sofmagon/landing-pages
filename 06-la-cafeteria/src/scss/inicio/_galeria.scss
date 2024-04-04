@@ -61,6 +61,14 @@
 					object-position: center;
 				}
 			}
+
+			&:nth-child(8) {
+				grid-column: 2 / 5;
+			}
+
+			img {
+				width: 94rem;
+			}
 		}
 	}
 }
