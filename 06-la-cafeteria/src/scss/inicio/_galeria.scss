@@ -78,6 +78,14 @@
 					object-position: top;
 				}
 			}
+
+			&:nth-child(10) {
+				grid-column: 3 / 5;
+
+				img {
+					width: 62rem;
+				}
+			}
 		}
 	}
 }
