@@ -4,12 +4,19 @@
 .nuestro-menu {
 	background-image: url(../images/menu_arriba.svg), url(../images/menu_abajo.svg), linear-gradient(to top, v.$mainColor, v.$mainColor);
 	background-repeat: no-repeat;
-	// los elementos a posicionar se separan con comas y los valores son las coordenadas en ejes x, y. El gradient no es necesario posicionar.
-	background-position: center 5rem, center 92%;
+	// los elementos a posicionar se separan con comas y los valores son las coordenadas en ejes x, y
+	background-position: center 5rem, center 92%, 100%;
+	// Para todos los elementos
+	background-size: 200%;
 
 	padding: 15rem 5rem 20rem 5rem;
 
 	@include m.tablet {
+		background-size: 100%;
 		padding: 15rem 0 20rem 0;
+	}
+
+	@include m.desktop {
+		background-size: 50%, 50%, 100%;
 	}
 }
