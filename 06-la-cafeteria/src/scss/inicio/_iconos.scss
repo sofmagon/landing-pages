@@ -1,0 +1,22 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.iconos {
+	margin-top: 5rem;
+
+	.listado-iconos {
+		li {
+			img {
+				margin: 0 auto;
+				display: block;
+				width: 12rem;
+			}
+
+			p {
+				font-family: v.$italicFont;
+				font-size: 3.2rem;
+				color: v.$mainColor;
+			}
+		}
+	}
+}
