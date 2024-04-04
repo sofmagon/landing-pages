@@ -2,5 +2,18 @@
 @use '../base/mixins' as m;
 
 .galeria {
+	// Mobile styles
 	@include m.grid(2, 2rem);
+
+	@include m.desktop {
+		@include m.grid(4, 2rem);
+	}
+
+	.imagen {
+		img {
+			height: 30rem;
+			width: 30rem;
+			object-fit: cover;
+		}
+	}
 }
