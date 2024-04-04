@@ -43,6 +43,15 @@
 					height: 62rem;
 				}
 			}
+
+			&:nth-child(5),
+			&:nth-child(6) {
+				grid-column: 3 / 5;
+
+				img {
+					width: 62rem;
+				}
+			}
 		}
 	}
 }
