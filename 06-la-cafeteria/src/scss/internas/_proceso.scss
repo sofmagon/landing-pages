@@ -2,6 +2,23 @@
 @use '../base/mixins' as m;
 
 .proceso-cafe {
+	margin-bottom: v.$separation;
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+
+	@include m.tablet {
+		display: flex;
+		align-items: center;
+		gap: v.$separation;
+	}
+
+	.imagen,
+	.texto {
+		flex: 1;
+	}
+
 	.texto {
 		margin-top: 1rem;
 
