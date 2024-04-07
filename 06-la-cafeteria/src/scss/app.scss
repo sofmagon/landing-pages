@@ -5,3 +5,6 @@
 @use './footer';
 @use './inicio';
 @use './internas';
+
+// Compilarlas hasta el final debido a que reescriben partes de otros elementos
+@use './utilidades';
