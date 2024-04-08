@@ -7,15 +7,20 @@ const autoprefixer = require('autoprefixer');
 const imagemin = require("gulp-imagemin");
 const webp = require('gulp-webp');
 const avif = require('gulp-avif');
+const sourcemaps = require('gulp-sourcemaps');
 
 function css() {
-	// 1. identificar el archivo de Sass
+	// identificar el archivo principal de Sass
 	return src('./src/scss/app.scss')
-		// 2. compilarlo & minificarlo
+		// 1. inicia sourcemaps
+		.pipe(sourcemaps.init())
+		// 2. compilar y/o minificar
 		.pipe(sass({ outputStyle: 'expanded' }))
-		// 3. postcss & autoprefixer
+		// 3. postcss y autoprefixer
 		.pipe(postcss([autoprefixer()]))
-		// 4. guardar el CSS
+		// 4. guardar el mapa junto al build
+		.pipe(sourcemaps.write('.'))
+		// 5. guardar el CSS
 		.pipe(dest('./build/css'))
 }
 
