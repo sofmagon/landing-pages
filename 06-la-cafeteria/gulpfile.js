@@ -18,9 +18,9 @@ function css() {
 		.pipe(sass({ outputStyle: 'expanded' }))
 		// 3. postcss y autoprefixer
 		.pipe(postcss([autoprefixer()]))
-		// 4. guardar el mapa junto al build
+		// 4. guardar el mapa junto al CSS compilado
 		.pipe(sourcemaps.write('.'))
-		// 5. guardar el CSS
+		// 5. guardar el CSS compilado
 		.pipe(dest('./build/css'))
 }
 
