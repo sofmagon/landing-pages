@@ -1,4 +1,11 @@
 @use '../base/variables' as v;
 @use '../base/mixins' as m;
 
-.contenido-contacto {}
+.contenido-contacto {
+	@include m.tablet {
+		@include m.grid(2, v.$separation);
+		background-image: url(../images/granos_cafe.jpg);
+		background-repeat: no-repeat;
+		background-position: right center;
+	}
+}
