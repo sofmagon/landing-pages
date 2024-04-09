@@ -1,7 +1,7 @@
 **/.DS_Store
 .prettierignore
 node_modules/
-build/css/
+build/
 src/images
 package.json
 package-lock.json
