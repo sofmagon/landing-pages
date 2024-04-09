@@ -28,7 +28,7 @@
 | # Number | Project name                      | Live site |
 | -------- | --------------------------------- | --------- |
 | 06       | [La Cafetería](./06-la-cafeteria) |           |
-|          |                                   |           |
+| 07       | [App Comida](./07-app-comida)     |           |
 |          |                                   |           |
 |          |                                   |           |
 |          |                                   |           |
