@@ -25,15 +25,13 @@
 
 ## 🍕 Projects
 
-| # Number | Project name                      | Live site |
-| -------- | --------------------------------- | --------- |
-| 06       | [La Cafetería](./06-la-cafeteria) |           |
-| 07       | [App Comida](./07-app-comida)     |           |
-|          |                                   |           |
-|          |                                   |           |
-|          |                                   |           |
-|          |                                   |           |
-|          |                                   |           |
+| # Number | Project name                      | Live site                                 |
+| -------- | --------------------------------- | ----------------------------------------- |
+| 06       | [La Cafetería](./06-la-cafeteria) | [🚀](https://06-la-cafeteria.netlify.app/) |
+| 07       | [App Comida](./07-app-comida)     | [🚀](https://07-app-comida.netlify.app/)   |
+|          |                                   |                                           |
+|          |                                   |                                           |
+|          |                                   |                                           |
 
 
 
