@@ -6,6 +6,10 @@
 	padding: v.$separation 0;
 
 	&__grid {
+		display: flex;
+		// cambiando el orden en que aparecen los elementos en mobile
+		flex-direction: column-reverse;
+
 		@include m.tablet {
 			@include m.grid(2, v.$separation);
 		}
@@ -13,11 +17,15 @@
 
 	&__imagen {
 		width: 50%;
-		margin: 0 auto;
+		margin: 7rem auto 0 auto;
 		transition: transform 300ms ease-in-out;
 
 		&:hover {
 			transform: rotate(4deg) scale(1.2);
+		}
+
+		@include m.tablet {
+			margin-top: 0;
 		}
 	}
 }
