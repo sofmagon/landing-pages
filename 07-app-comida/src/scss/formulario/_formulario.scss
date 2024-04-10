@@ -1,0 +1,66 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+// Sass + BEM: .bloque { &__elemento { &--modificador } }
+
+.formulario {
+	&__grid {
+		@include m.tablet {
+			@include m.grid(2, v.$separation);
+		}
+	}
+
+	&__contenido {
+		background-color: v.$mainColor;
+		padding: v.$separation;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	&__heading {
+		color: v.$white;
+		text-align: center;
+	}
+
+	&__campo {
+		margin-bottom: 1rem;
+	}
+
+	&__label {
+		display: block;
+		text-transform: uppercase;
+		color: v.$white;
+		margin: 1rem 0;
+	}
+
+	&__input {
+		width: 100%;
+		padding: 1.5rem;
+		border: none;
+	}
+
+	&__submit {
+		margin-top: 2rem;
+
+		@include m.boton(v.$secondColor, v.$white);
+
+		@include m.tablet {
+			width: 100%;
+		}
+	}
+
+	&__imagen-contenedor {
+		margin-top: v.$separation;
+		display: flex;
+		justify-content: center;
+	}
+
+	.formulario__imagen {
+		width: 30rem;
+
+		@include m.desktop {
+			width: 100%;
+		}
+	}
+}
