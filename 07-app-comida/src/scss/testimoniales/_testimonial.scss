@@ -12,6 +12,12 @@
 		margin-bottom: 0;
 	}
 
+	@include m.tablet {
+		&:nth-child(1) {
+			grid-column: 1 / 4;
+		}
+	}
+
 	&__header {
 		display: flex;
 		align-items: center;
