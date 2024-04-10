@@ -16,6 +16,8 @@
 
 + Flexbox & CSS Grid
 
++ BEM
+
 + RWD: Mobile-first workflow
 
 + Sass
@@ -30,7 +32,7 @@
 
 ## 🌎 Live demo
 
-[Click here]() 👈🏻
+[Click here](https://07-app-comida.netlify.app/) 👈🏻
 
 
 ## 🌈 My Links

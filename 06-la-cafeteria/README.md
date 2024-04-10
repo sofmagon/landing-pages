@@ -30,7 +30,7 @@
 
 ## 🌎 Live demo
 
-[Click here]() 👈🏻
+[Click here](https://06-la-cafeteria.netlify.app/) 👈🏻
 
 
 ## 🌈 My Links
